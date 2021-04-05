@@ -6,8 +6,12 @@ body {
 .app {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 480px 480px 480px;
+	max-width: 1440px;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, 33.3%);
 	grid-auto-rows: minmax(80px, auto);
-
-	overflow: hidden;
+}
+.text {
+	font-size: 24px;
+	color: #ffffff;
 }
