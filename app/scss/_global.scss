@@ -1,0 +1,12 @@
+html,
+body {
+	height: 100%;
+}
+.app {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 480px 480px 480px;
+	grid-auto-rows: minmax(80px, auto);
+
+	overflow: hidden;
+}

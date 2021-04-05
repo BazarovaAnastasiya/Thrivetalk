@@ -1,0 +1,23 @@
+.about {
+  grid-area: 3 / span 3;
+  display: flex;
+
+  padding: 150px 105px 80px;
+
+  &__title {
+    margin-right: 19%;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+
+    color: #22356f;
+  }
+  &__text {
+    flex-basis: 47%;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #22356f;
+  }
+}

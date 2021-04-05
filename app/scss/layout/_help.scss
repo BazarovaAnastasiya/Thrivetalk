@@ -1,0 +1,36 @@
+.help {
+  grid-area: 4 / span 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 125px;
+  &__maintitle {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: rgba(34, 53, 111, 0.5);
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__card {
+    width: 360px;
+    height: 360px;
+    align-self: center;
+  }
+  &__card--pink {
+    background: #ffe2de;
+  }
+  &__card--lightgreen {
+    background: #c4e769;
+  }
+  &__card--lightblue {
+    background: #62d0df;
+  }
+  &__card--blue {
+    background: #0052c1;
+  }
+}
