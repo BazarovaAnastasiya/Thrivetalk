@@ -21,16 +21,12 @@
     height: 360px;
     align-self: center;
   }
-  &__card--pink {
-    background: #ffe2de;
-  }
-  &__card--lightgreen {
-    background: #c4e769;
-  }
-  &__card--lightblue {
-    background: #62d0df;
-  }
-  &__card--blue {
-    background: #0052c1;
+  &__title {
+    padding: 100px 80px 0;
+
+    &::after {
+      top: 80px;
+      left: 50px;
+    }
   }
 }

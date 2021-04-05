@@ -4,11 +4,11 @@
 @import "libs";
 @import "global";
 
+@import "components/logo";
+@import "components/title";
+
 @import "layout/_header";
 @import "layout/_why";
 @import "layout/_about";
 @import "layout/_help";
 @import "layout/_card";
-
-@import "components/logo";
-@import "components/title";
