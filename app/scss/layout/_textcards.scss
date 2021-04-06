@@ -1,0 +1,22 @@
+.textcards {
+  padding: 70px 105px 0;
+  margin-bottom: 40px;
+
+  &__title {
+    margin-bottom: 28px;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356f;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+
+    color: rgba(34, 53, 111, 0.5);
+  }
+}

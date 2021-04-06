@@ -36,3 +36,9 @@ body {
 .purple {
 	background: #8f00ff;
 }
+.content {
+	padding: 105px 170px 42px 105px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
