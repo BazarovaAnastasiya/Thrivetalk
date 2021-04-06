@@ -1,7 +1,22 @@
 .contenttext {
   grid-area: 10/1/11 / span 2;
+  padding-left: 180px;
   color: #fff;
   &__title {
+    margin-bottom: 160px;
+    color: #fff;
+  }
+  &__maintext {
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+  }
+  &__text {
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+  }
+  &__btn {
     color: #fff;
   }
 }
