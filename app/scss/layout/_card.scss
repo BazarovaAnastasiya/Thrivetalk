@@ -1,7 +1,6 @@
 .card {
   width: 480px;
   height: 480px;
-  background-color: #62d0df;
 
   &__title {
     padding: 130px 184px 0 105px;
@@ -10,16 +9,9 @@
       left: 70px;
     }
   }
-  &__pink {
-    background: #ffe2de;
-  }
-  &__lightgreen {
-    background: #c4e769;
-  }
-  &__lightblue {
-    background: #62d0df;
-  }
-  &__blue {
-    background: #0052c1;
+  &__img {
+    background: url(./../img/card-img.jpg);
+    width: 100%;
+    height: 100%;
   }
 }
