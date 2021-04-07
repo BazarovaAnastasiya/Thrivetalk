@@ -1,7 +1,8 @@
 .textcards {
-  padding: 70px 105px 0;
-  margin-bottom: 40px;
-
+  padding: 80px 105px 0;
+  &--mb {
+    margin-bottom: 70px;
+  }
   &__title {
     margin-bottom: 28px;
 
@@ -14,9 +15,8 @@
   }
   &__text {
     font-size: 16px;
-    line-height: 25px;
+    line-height: 28px;
     letter-spacing: -0.03em;
-
     color: rgba(34, 53, 111, 0.5);
   }
 }
