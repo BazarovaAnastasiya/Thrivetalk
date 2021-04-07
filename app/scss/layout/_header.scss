@@ -99,9 +99,12 @@
   }
 
   &__image {
+    width: 50%;
+
     position: absolute;
+    top: 0;
     right: 0;
-    bottom: 35px;
+
     z-index: 2;
   }
   &__bg {

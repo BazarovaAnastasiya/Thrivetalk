@@ -8,7 +8,7 @@ body {
 	justify-content: center;
 	max-width: 1440px;
 	margin: 0 auto;
-	grid-template-columns: repeat(3, 33.3%);
+	grid-template-columns: repeat(3, 33%);
 	grid-auto-rows: minmax(80px, auto);
 }
 .text {
