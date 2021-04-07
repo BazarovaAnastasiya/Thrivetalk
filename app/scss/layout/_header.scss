@@ -97,17 +97,10 @@
     background: #f9b640;
     border-color: transparent;
   }
-  &__img {
-    position: relative;
-    top: 40px;
-    left: 132px;
-
-    width: 970px;
-  }
 
   &__image {
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: 35px;
     z-index: 2;
   }

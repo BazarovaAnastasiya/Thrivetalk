@@ -1,0 +1,45 @@
+.footer {
+  grid-area: 11 / span 3;
+  display: flex;
+  &__img {
+    margin-right: 70px;
+  }
+  &__content {
+    max-width: 200px;
+    padding-top: 110px;
+    margin-right: 80px;
+  }
+  &__title {
+    margin-bottom: 55px;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+
+    color: #22356f;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+
+    color: rgba(34, 53, 111, 0.5);
+    &--min {
+      max-width: 150px;
+      margin-bottom: 30px;
+    }
+    &--mail {
+      color: #17f;
+    }
+  }
+
+  &__legal {
+    padding: 35px 185px;
+    grid-area: 12 / span 3;
+    color: #fff;
+  }
+  &__info {
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+  }
+}
