@@ -1,0 +1,13 @@
+@media screen and (max-width: 1200px) {
+  .app {
+    max-width: 100%;
+    margin: 0 auto;
+    grid-column: 1fr 1fr;
+    // grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(80px, auto);
+  }
+
+  .help__wrapper {
+    flex-wrap: wrap;
+  }
+}
